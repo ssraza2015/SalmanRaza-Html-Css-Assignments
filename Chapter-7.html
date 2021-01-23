@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head><title>Chapter-7-Syed Salman Raza</title></head>
+<body>
+
+    <form action="http:\\www.example.com/review.php" method="GET">
+        <fieldset>
+            <legend>Your Details:</legend>
+        <p>Name:<input name=username type=text> </p>
+        <p>Email:<input name=useremail type=email></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label>How did you hear about us ?
+            <select>
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="yahoo">Yahoo</option>
+            </select>
+            </label>
+            <p> Would you visit again?</p>
+            
+            <label>
+            <input type="radio" name="willvisitAgain" value="Yes">
+            Yes </label>
+
+            <label>
+            <input type="radio" name="willvisitAgain" value="No">
+            No </label>
+            
+            <label>
+            <input type="radio" name="willvisitAgain" value="May be">
+            Maybe
+        </label>
+        <br><br>
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea rows="4" cols="40" id="comments"></textarea>
+        <br><br>
+        <label>
+            <Input type="checkbox" name="signed">
+                signed me up for email updates
+        </label>
+        <br><br>
+        <input type="button" value="Submit Review">
+        </fieldset>
+    </form>
+
+
+</body></html>
